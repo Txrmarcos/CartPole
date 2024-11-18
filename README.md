@@ -1,4 +1,6 @@
-# Relatório: Solução para o Problema Cartpole com Reinforcement Learning Clássico
+# Solução para o Problema Cartpole com Reinforcement Learning Clássico
+
+Repositorio com a implementação: https://github.com/Txrmarcos/CartPole
 
 ## Introdução
 
@@ -48,7 +50,7 @@ O algoritmo de Q-learning foi implementado com os seguintes passos:
      - Selecionar uma ação usando a política ε-greedy.
      - Executar a ação e observar o próximo estado e a recompensa.
      - Atualizar a Q-tabela utilizando a equação de Bellman:
-       ```Q(s, a) = Q(s, a) + alpha * (reward + gamma * max(Q(s', a')) - Q(s, a)) ```
+       `Q(s, a) = Q(s, a) + alpha * (reward + gamma * max(Q(s', a')) - Q(s, a)) `
 3. **Política Ótima:**
 
    - Após o treinamento, a política ótima foi extraída selecionando as ações que maximizam o valor Q para cada estado.
@@ -61,7 +63,7 @@ O agente foi treinado por 5.000 episódios. Após o treinamento, ele foi capaz d
 
 ### Desempenho do Agente
 
-- **Recompensa Média:** 400 por episódio no estado estacionário.
+- **Recompensa Média:** 500 por episódio no estado estacionário.
 - **Taxa de Sucesso:** O agente conseguiu equilibrar o pêndulo consistentemente após o treinamento.
 
 ---

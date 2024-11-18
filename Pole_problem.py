@@ -114,7 +114,7 @@ class Car:
                 action = self.setAction(state)  # Escolhe uma ação
                 next_state, reward, done, truncated, _ = env.step(action)  # Executa a ação
                 
-                # Penaliza se o episódio terminar antes de atingir 200 recompensas
+                # Penaliza se o episódio terminar antes de atingir 500 recompensas
                 if done and total_r < 500:
                     reward1 = self.isInRoad(state)
                     reward2 = self.outOfRoad(state)
