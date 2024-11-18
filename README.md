@@ -59,7 +59,7 @@ O algoritmo de Q-learning foi implementado com os seguintes passos:
 
 ## Resultados
 
-O agente foi treinado por 5.000 episódios. Após o treinamento, ele foi capaz de manter o pêndulo equilibrado por uma média de 400 passos consecutivos, demonstrando o aprendizado de uma política ótima.
+O agente foi treinado por 5.000 episódios. Após o treinamento, ele foi capaz de manter o pêndulo equilibrado por uma média de 500 passos consecutivos, demonstrando o aprendizado de uma política ótima.
 
 ### Desempenho do Agente
 
